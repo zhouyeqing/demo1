@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    left:0;
+    top:0;
+    width:100%;
+}
+#bar{
+	width: 100%;
+	height: 70px;
+	background-color: #bb0000;
+	position: relative;
+}
+#fixed{
+	width: 100%;
+	height: 70px;
+	background-color: #bb0000;
+	position: fixed;
+	bottom: 0;
+}
+#fixed>div{
+	width:320px;
+	border: 10px solid #880000;
+	border-radius: 30%;
+	height: 50px;
+	background-color: #d2e9ff;
+	float: left;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+#bar>button{
+	width:230px;
+	border: 10px solid #880000;
+	border-radius: 30%;
+	height: 70px;
+	background-color: #d2e9ff;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+#search1{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	display: block;
+}
+#search2{
+	margin: 0 auto;
+	display: block;
+}
+#search3{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	display: block;
+}
+#search4{
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+#search5{
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+#main1{
+    padding: 20px;
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+}
+#main2{
+    padding: 15px;
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+}
+#main3{
+    padding: 15px;
+    width: 650px;
+    height: auto;
+    margin: 0 auto 70px;
+    text-align: center;
+    color: #ff0000;
+    font-size: 48px;
+}
+#div_input{
+    position: relative;
+    width: 650px;
+    height: 200px;
+}
+#title1{
+    margin: 0 auto;
+    font-size: 60px;
+    display: block;
+    width: 650px;
+    text-align: center;
+}
+input{
+    width: 450px;
+    height: 80px;
+    padding: 0 16px;
+    border: 2px solid #ffc002;
+    font-size: 30px;
+    line-height: 12px;
+    position: absolute;
+}
+#input1{
+    left: 20px;
+    top: 20px;
+}
+#input2{
+    left: 20px;
+    top: 110px;
+}
+#button{
+    position: absolute;
+    width: 120px;
+    height: 173px;
+    top: 20px;
+    left: 520px;
+	font-size: 60px;
+	border: 2px solid #f0f0f0;
+	border-radius: 20%;
+	background-color: #ffc78e;
+}
+table{
+    width:650px;
+    font-size: 20px;
+}
+.tr{
+    color: #aaaaff;
+}
+#tt{
+    color: #0000ff;
+}
+.trr{
+    color: #d3a4ff;
+}
+#ttt{
+    color: #921aff;
+}
+th{
+    padding: 1px;
+}
+.width{
+    width: 48px;
+}
